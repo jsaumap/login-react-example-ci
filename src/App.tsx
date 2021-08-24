@@ -1,5 +1,6 @@
 import { Login } from "./components/Login";
 import { UserForm } from "./components/UserForm";
+import { UserTable } from "./components/UserTable";
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <Login/>
       <br /><hr />
       <UserForm/>
+      <br /><hr />
+      <UserTable></UserTable>
     </div>
   );
 }
