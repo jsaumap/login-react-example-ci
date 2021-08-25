@@ -1,8 +1,5 @@
 import { Button } from "antd";
-import { Link, Route, Switch } from "react-router-dom";
-import { Login } from "./Login";
-import { UserForm } from "./UserForm";
-import { UserTable } from "./UserTable";
+import { Link } from "react-router-dom";
 
 export const Welcome = () => {
   return (

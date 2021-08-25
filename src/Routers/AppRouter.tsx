@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Login } from "../components/Login";
 import { UserForm } from "../components/UserForm";
-import { UserTable } from "../components/UserTable";
 import { Welcome } from "../components/Welcome";
 import { LayoutPage } from '../components/LayoutPage';
 

@@ -1,10 +1,8 @@
 import { Layout, Menu, Breadcrumb } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
-import { Switch, Route, Link } from "react-router-dom";
-import { Login } from "./Login";
-import { UserForm } from "./UserForm";
-import { UserTable } from "./UserTable";
+import { Link } from "react-router-dom";
+import { LayoutRouter } from "../Routers/LayoutRouter";
 
 const { Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -78,10 +76,7 @@ export const LayoutPage = () => {
             className="site-layout-background"
             style={{ padding: 24, minHeight: "80vh" }}
           >
-            <Switch>
-              <Route exact path="/User/UserTable" component={UserTable} />
-              <Route exact path="/User/UserForm" component={UserForm} />
-            </Switch>
+            <LayoutRouter/>
           </div>
         </Content>
         <Footer style={{ textAlign: "center" }}>
